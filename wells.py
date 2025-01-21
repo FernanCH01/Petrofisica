@@ -1,11 +1,5 @@
-# Import Python Libraries
-import streamlit as st
-import pandas as pd
-from PIL import Image
-from pathlib import Path
-import lasio
-import welly
-import matplotlib.pyplot as plt
+
+
 
 #icono
 icon = Image.open('logo/icono.jpg')
