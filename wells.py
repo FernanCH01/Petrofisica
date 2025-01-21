@@ -1,17 +1,13 @@
 # Import Python Libraries
 import streamlit as st
 import pandas as pd
+from streamlit_option_menu import option_menu
 import plotly.express as px
 from PIL import Image
 from pathlib import Path
 import lasio
 import welly
-import numpy as np
 import matplotlib.pyplot as plt
-#import missingno as msno
-import warnings
-warnings.filterwarnings('ignore')
-
 
 #icono
 icon = Image.open('logo/icono.jpg')
